@@ -148,28 +148,28 @@
     <script>
         window.onload = () => {
             // window.removeEventListener("devicemotion")
-            Object.keys(window).forEach((key) => {
-                var i = 0;
-                if (/^on/.test(key)) {
-                    window.addEventListener(key.slice(2), event => {
-                        var path = document.createElement("div");
-                        path.classList.add("path", `path_${i}`);
-                        path.innerHTML = event.type;
-                        if(event.type !== "message"){
-                            $('.target').text(event.type);
-                        }
-                        if (event.type === "lostpointercapture"){
-                            $('.pointer').text("true");
-                            console.log(event);
-                            setTimeout(() => {
-                                $('.pointer').text("false");
-                            }, 2000)
-                        }
-                        $('.test').text(event.target.className);
-                        $(".event").append(path);
-                    });
-                }
-            });
+            // Object.keys(window).forEach((key) => {
+            //     var i = 0;
+            //     if (/^on/.test(key)) {
+            //         window.addEventListener(key.slice(2), event => {
+            //             var path = document.createElement("div");
+            //             path.classList.add("path", `path_${i}`);
+            //             path.innerHTML = event.type;
+            //             if(event.type !== "message"){
+            //                 $('.target').text(event.type);
+            //             }
+            //             if (event.type === "lostpointercapture"){
+            //                 $('.pointer').text("true");
+            //                 console.log(event);
+            //                 setTimeout(() => {
+            //                     $('.pointer').text("false");
+            //                 }, 2000)
+            //             }
+            //             $('.test').text(event.target.className);
+            //             $(".event").append(path);
+            //         });
+            //     }
+            // });
             // $('body').on("touchstart", (e) => {
             //     console.log(e);
             //     $('.path').remove();
