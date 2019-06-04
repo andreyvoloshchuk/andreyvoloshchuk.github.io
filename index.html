@@ -1,0 +1,438 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="css/GlobalCSS.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/roundslider.min.css">
+    <script src="js/veeva-library.js" type="text/javascript"></script>
+    <script src="js/veeva-library-addendum_survey_iDC.js" type="text/javascript"></script>
+    <!-- <script src="js/jquery.js" type="text/javascript"></script> -->
+   <!--  <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script> -->
+    <script src="js/jquery-3.4.1.js"></script>
+<!--    <script src="js/jquery-ui.min.js"></script>-->
+<!--    <script src="js/jquery.ui.touch-punch.js"></script>-->
+<!--    <script src="js/jquery.touchSwipe.min.js"></script>-->
+<!--    <script src="js/slider-circular.min.js"></script>-->
+    <script src="js/TweenLite.min.js" type="text/javascript"></script>
+    <script src="js/TweenMax.min.js" type="text/javascript"></script>
+<!--    <script src="js/roundslider.js" type="text/javascript"></script>-->
+<!--    <script src="js/particles.js" type="text/javascript"></script>-->
+    <script src="js/GlobalJS.js" type="text/javascript"></script>
+<!--    <script src="js/slide.js" type="text/javascript"></script>-->
+<!--    <script src="js/circle.js" type="text/javascript"></script>-->
+    <script src="js/script.js" type="text/javascript"></script>
+    <title></title>
+</head>
+<body>
+    <div id="animate_container">
+        <div class="container">
+            <!--Header-->
+            <div class="header">
+                <div class="head_img">
+                    <div class="nav_panel">
+                        <ul>
+                            <li id="n_bt_1"></li>
+                            <li id="n_bt_2"></li>
+                            <li id="n_bt_3"></li>
+                            <li id="n_bt_4"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu_cnt">
+                    <div class="border_cnt center_abs">
+                        <div class="grey_cnt center_abs">
+                            <div class="nw_bord center_abs"></div>
+                        </div>
+                    </div>
+                    <div class="btn_cnt">
+                        <div class="mn_btn" id="m_bt_1"></div>
+                        <div class="mn_btn" id="m_bt_2"></div>
+                        <div class="mn_btn" id="m_bt_3"></div>
+                        <div class="mn_btn" id="m_bt_4"></div>
+                        <div class="mn_btn" id="m_bt_5"></div>
+                        <div class="mn_btn" id="m_bt_6"><a href="pdf/PIL_CERE_2014.pdf" class="full_a" ></a></div>
+                        <div class="mn_btn" id="m_bt_7"></div>
+                        <div class="mn_btn" id="m_bt_8"></div>
+                    </div>
+                </div>
+                <div class="menu_btn" id="nav_btn"></div>
+            </div>
+            <!--Header-->
+
+            
+            <div class="content">
+                <div class="save_button">
+                    <div class="bt_sv">Зберегти результат</div>
+                    <div id="load_button"><div class="done_load"></div></div>
+                </div>
+                <!-------------Content-------------->
+                <div class="zoom_block"></div>
+                <div class="main">
+                    <div class="on1 on "></div>
+                    <div class="on2 on "></div>
+                    <div class="on3 on "></div>
+                    <div class="on4 on "></div>
+                    <div class="on5 on "></div>
+                    <div class="on6 on "></div>
+                    <div class="on7 on "></div>
+                    <div class="on8 on "></div>
+                    <div class="on9 on "></div>
+                    <div class="on10 on "></div>
+                    <div class="on11 on "></div>
+                    <div class="on12 on "></div>
+                    <div class="on13 on "></div>
+                    <div class="on14 on "></div>
+                    <div class="on15 on "></div>
+                    <div class="on16 on "></div>
+                    <div class="on17 on "></div>
+                    <div class="on18 on "></div>
+                    <div class="on19 on "></div>
+                    <div class="on20 on "></div>
+                    <div class="on21 on "></div>
+                    <div class="on22 on "></div>
+                    <div class="on23 on "></div>
+                    <div class="on24 on "></div>
+                    <div class="on25 on "></div>
+                    <div class="on26 on "></div>
+                    <div class="on27 on "></div>
+                    <div class="on28 on "></div>
+                    <div class="on29 on "></div>
+                    <div class="on30 on "></div>
+                    <p class="header-text">Якій кількості пацієнтів на мiсяць <br>Ви призначите <span>Церебролізин<sup>®</sup></span>?</p>
+                </div>
+                <!-------------Content-------------->
+            </div>
+            
+
+            <!--Footer-->
+            <!--
+            <div class="footer">
+                <div class="ft_cnt">Церебролізин<sup>®</sup><p><b>Возз’єднує нейрони.<br>Надихає на життя.<b></p></div>
+            </div>
+
+            <!--Footer-->
+        </div>
+
+
+        <!--Servey Form-->
+        <div class="server_container">
+            <form id="surveyForm">
+                <div id="surveyContainer"></div>
+                <a href="javascript:void(0);" class="surveyButton" id="submitButton">Submit</a>
+                <a href="javascript:void(0);" class="surveyButton" id="saveButton">Save for later</a>
+            </form>
+            <div id="errorDiv"></div>
+        </div>
+
+
+        <!--End Servey Form-->
+    </div>
+<!--    <div class="content_sl">-->
+<!--        <div id="slider"></div>-->
+<!--    </div>-->
+    <figure class="radial-slider">
+        <span class="value">0</span>
+        <div class="circle">
+            <div class="knob"></div>
+        </div>
+        <canvas class="progress"></canvas>
+        <div class="inner-circle"></div>
+    </figure>
+
+    <div class="event"></div>
+    <div class="target"></div>
+    <div class="test"></div>
+    <div class="pointer"></div>
+    <script>
+        window.onload = () => {
+            // window.removeEventListener("devicemotion");
+            console.log(window);
+            Object.keys(window).forEach((key) => {
+                var i = 0;
+                if (/^on/.test(key)) {
+                    window.addEventListener(key.slice(2), event => {
+                        var path = document.createElement("div");
+                        path.classList.add("path", `path_${i}`);
+                        path.innerHTML = event.type;
+                        if(event.type !== "message"){
+                            $('.target').text(event.type);
+                        }
+                        console.log(event);
+                        if (event.type === "lostpointercapture"){
+                            $('.pointer').text("true");
+                            setTimeout(() => {
+                                $('.pointer').text("false");
+                            }, 2000)
+                        }
+                        $('.test').text(event.target.className);
+                        $(".event").append(path);
+                    });
+                }
+            });
+            // $('body').on("touchstart", (e) => {
+            //     console.log(e);
+            //     $('.path').remove();
+            //     for(let i = 0; i < e.originalEvent.path.length; i++){
+            //         var path = document.createElement("div");
+            //         path.classList.add('path', `path_${i}`);
+            //         if (e.originalEvent.path[i].className){
+            //             path.innerHTML = e.originalEvent.path[i].className;
+            //         }
+            //         else {
+            //             path.innerHTML = e.originalEvent.path[i].nodeName;
+            //         }
+            //         $("body").append(path);
+            //     }
+            //     $('body').on("touchmove", (e) => {
+            //         $(".event").text(e.type);
+            //         $(".target").text(e.target.className);
+            //         console.log(e.originalEvent.path);
+            //         for(let i = 0; i < e.originalEvent.path.length; i++){
+            //             if (!document.body.contains(document.getElementsByClassName(`path_${i}`)[0])){
+            //                 var path = document.createElement("div");
+            //                 path.classList.add('path', `path_${i}`);
+            //                 $("body").append(path);
+            //             }
+            //             if (e.originalEvent.path[i].className){
+            //                 document.getElementsByClassName(`path_${i}`)[0].innerHTML = e.originalEvent.path[i].className;
+            //             }
+            //             else {
+            //                 document.getElementsByClassName(`path_${i}`)[0].innerHTML = e.originalEvent.path[i].nodeName;
+            //             }
+            //         }
+            //     })
+            // })
+        };
+
+        (function () {
+            var Slider, j, lastTime, len, slider, vendor, vendors;
+
+            Slider = function () {
+                class Slider {
+                    constructor($context) {
+                        var bg, circleOffset;
+                        this.updateSlider = this.updateSlider.bind(this);
+
+                        // Callbacks
+                        this.onMouseDown = this.onMouseDown.bind(this);
+                        this.onMouseUp = this.onMouseUp.bind(this);
+                        this.onMouseMove = this.onMouseMove.bind(this);
+                        this.$context = $context;
+                        this.$circle = this.$context.find(".circle");
+                        this.$innerCircle = this.$context.find(".inner-circle");
+                        this.$knob = this.$context.find(".knob");
+                        this.$progress = this.$context.find(".progress");
+                        this.ctx = this.$progress.get(0).getContext("2d");
+                        circleOffset = this.$circle.offset();
+                        this.elementPosition = {
+                            x: circleOffset.left,
+                            y: circleOffset.top };
+
+                        this.centerX = this.$progress.width() / 2;
+                        this.centerY = this.$progress.height() / 2;
+                        this.canvasSize = this.$progress.width();
+                        bg = this.getBackground();
+                        this.$context.css({
+                            backgroundImage: `url(${bg})` });
+
+                        this.$innerCircle.css({
+                            backgroundImage: `url(${bg})` });
+
+                        this.addEventListeners();
+                        this.updateSlider();
+                        return;
+                    }
+
+                    addEventListeners() {
+                        this.$context.on("mousedown", this.onMouseDown);
+                        this.$context.on("mousemove", this.onMouseMove);
+                        $("body").on("mouseup", this.onMouseUp);
+                    }
+
+                    updateSlider() {
+                        this.raf = requestAnimationFrame(this.updateSlider);
+                        this.setPosition();
+                        this.drawArc();
+                    }
+
+                    setPosition() {
+                        this.x = Math.round(this.radius * Math.sin(this.target * Math.PI / 180)) + this.radius - this.knobRadius + 4;
+                        this.y = Math.round(this.radius * -Math.cos(this.target * Math.PI / 180)) + this.radius - this.knobRadius + 4;
+                        this.$knob.css({
+                            left: this.x,
+                            top: this.y });
+
+                    }
+
+                    drawArc() {
+                        this.$progress.get(0).width = this.canvasSize;
+                        this.$progress.get(0).height = this.canvasSize;
+                        this.ctx.save();
+                        this.ctx.translate(this.centerX, this.centerY - this.radius);
+                        this.ctx.rotate(-90 * Math.PI / 180);
+                        this.ctx.strokeStyle = "#0083ad";
+                        this.ctx.beginPath();
+                        this.ctx.lineWidth = 8;
+                        this.ctx.arc(0 - this.radius - 1, 0, this.radius - 1, 0, this.target * Math.PI / 180, false);
+                        this.ctx.stroke();
+                        this.ctx.restore();
+                    }
+
+                    setMousePosition(event) {
+                        var atan, diff, target, val;
+                        this.mPos = {
+                            x: event.pageX - this.elementPosition.x,
+                            y: event.pageY - this.elementPosition.y };
+
+                        atan = Math.atan2(this.mPos.x - this.radius, this.mPos.y - this.radius);
+                        target = -atan / (Math.PI / 180) + 180;
+                        diff = Math.abs(target - this.target);
+                        if (diff < this.maxDiff && target < this.constraint) {
+                            this.target = target;
+                            val = {
+                                type: "sliderchange",
+                                value: this.target };
+
+                            this.$context.trigger(val);
+                        }
+                    }
+
+                    getBackground() {
+                        var dividerEvery, i, img, j, ref, steps;
+                        steps = 60;
+                        dividerEvery = 15;
+                        this.$progress.get(0).height = this.canvasSize;
+                        this.$progress.get(0).width = this.canvasSize;
+                        this.ctx.save();
+                        this.ctx.translate(this.centerX, this.centerY);
+                        for (i = j = 0, ref = steps; j <= ref; i = j += 1) {
+                            this.ctx.beginPath();
+                            this.ctx.rotate(Math.PI * 2 / steps);
+                            if (i % dividerEvery === dividerEvery - 1) {
+                                this.ctx.lineWidth = 2;
+                                this.ctx.moveTo(160, 0);
+                                this.ctx.lineTo(136, 0);
+                                this.ctx.strokeStyle = "#04465C";
+                            } else {
+                                this.ctx.lineWidth = 1;
+                                this.ctx.lineTo(155, 0);
+                                this.ctx.lineTo(135, 0);
+                                this.ctx.strokeStyle = "#02394A";
+                            }
+                            this.ctx.stroke();
+                        }
+                        this.ctx.restore();
+                        img = this.$progress.get(0).toDataURL();
+                        this.ctx.clearRect(0, 0, this.canvasSize, this.canvasSize);
+                        return img;
+                    }
+
+                    onMouseDown(event) {
+                        this.mdown = true;
+                    }
+
+                    onMouseUp(event) {
+                        this.mdown = false;
+                    }
+
+                    onMouseMove(event) {
+                        if (this.mdown) {
+                            this.setMousePosition(event);
+                        }
+                    }}
+
+                ;
+
+                Slider.prototype.raf = null;
+
+                Slider.prototype.mdown = false;
+
+                Slider.prototype.mPos = {
+                    x: 0,
+                    y: 0 };
+
+
+                Slider.prototype.elementPosition = {
+                    x: 0,
+                    y: 0 };
+
+
+                Slider.prototype.radius = 146;
+
+                Slider.prototype.knobRadius = 15;
+
+                Slider.prototype.maxDiff = 150;
+
+                Slider.prototype.constraint = 360;
+
+                Slider.prototype.target = 0;
+
+                Slider.prototype.centerX = 0;
+
+                Slider.prototype.centerY = 0;
+
+                Slider.prototype.$circle = null;
+
+                Slider.prototype.$knob = null;
+
+                Slider.prototype.$progress = null;
+
+                Slider.prototype.x = 0;
+
+                Slider.prototype.y = 0;
+
+                return Slider;
+
+            }.call(this);
+
+            this.$slider = $(".radial-slider");
+
+            this.$value = $(".value");
+
+            slider = new Slider(this.$slider);
+
+            $slider.on("sliderchange", event => {
+                this.$value.html(Math.round(event.value));
+            });
+
+
+            //https://github.com/sinisterchipmunk/jax/blob/96330f6aad1ca57c444f5a6e7e33deca2476226d/lib/assets/javascripts/jax/anim_frame.js.coffee
+            lastTime = 0;
+
+            vendors = ['ms', 'moz', 'webkit', 'o'];
+
+            this.cancelAnimationFrame || (this.cancelAnimationFrame = this.cancelRequestAnimationFrame);
+
+            if (!this.requestAnimationFrame) {
+                for (j = 0, len = vendors.length; j < len; j++) {
+                    vendor = vendors[j];
+                    this.requestAnimationFrame || (this.requestAnimationFrame = this[vendor + 'RequestAnimationFrame']);
+                    this.cancelAnimationFrame = this.cancelRequestAnimationFrame || (this.cancelRequestAnimationFrame = this[vendor + 'CancelRequestAnimationFrame']);
+                }
+            }
+
+            if (!this.requestAnimationFrame) {
+                this.requestAnimationFrame = function (callback, element) {
+                    var currTime, id, timeToCall;
+                    currTime = new Date().getTime();
+                    timeToCall = Math.max(0, 16 - (currTime - lastTime));
+                    id = this.setTimeout(function () {
+                        return callback(currTime + timeToCall);
+                    }, timeToCall);
+                    lastTime = currTime + timeToCall;
+                    return id;
+                };
+            }
+
+            if (!this.cancelAnimationFrame) {
+                this.cancelAnimationFrame = this.cancelRequestAnimationFrame = function (id) {
+                    return clearTimeout(id);
+                };
+            }
+
+        }).call(this);
+    </script>
+</body>
+</html>
