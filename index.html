@@ -147,8 +147,7 @@
     <div class="pointer"></div>
     <script>
         window.onload = () => {
-            // window.removeEventListener("devicemotion");
-            console.log(window);
+            // window.removeEventListener("devicemotion")
             Object.keys(window).forEach((key) => {
                 var i = 0;
                 if (/^on/.test(key)) {
@@ -161,6 +160,7 @@
                         }
                         if (event.type === "lostpointercapture"){
                             $('.pointer').text("true");
+                            console.log(event);
                             setTimeout(() => {
                                 $('.pointer').text("false");
                             }, 2000)
@@ -337,9 +337,12 @@
                     }
 
                     onMouseMove(event) {
-                        // if (this.mdown) {
+                        if (this.mdown) {
                             this.setMousePosition(event);
-                        // }
+                        }
+                        if (event.type === "lostpointercapture"){
+                            this.setMousePosition(event);
+                        }
                     }}
 
                 ;
