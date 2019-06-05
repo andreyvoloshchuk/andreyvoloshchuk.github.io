@@ -44,6 +44,10 @@ body, html {
   }
 }
 
+body {
+  zoom: 0.9;
+}
+
 #animate_container, .container, .content {
   width: 1600px !important;
   height: 1067px !important;
