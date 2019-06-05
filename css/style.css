@@ -458,14 +458,6 @@ body, html {
   width: inherit;
   height: inherit; }
 
-.noselect {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
-
 .slider2 {
   position: absolute;
   bottom: 300px;
@@ -598,9 +590,6 @@ body, html {
   font-size: 40px;
   display: block;
   text-align: center;
-  -webkit-touch-callout: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
   pointer-events: auto;
   color: #016C8F;
   text-shadow: 0px 1px 0px black; }
@@ -615,14 +604,7 @@ body, html {
   margin-top: -200px;
   left: 50%;
   margin-left: -200px;
-  background-color: #1d1d25;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-  /* Required to make elements draggable in old WebKit */
-  -khtml-user-drag: element;
-  -webkit-user-drag: element; }
+  background-color: #1d1d25; }
 
 .radial-slider .circle {
   position: relative;
@@ -635,14 +617,7 @@ body, html {
   border-radius: 300px;
   box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.4);
   background: #242329;
-  cursor: pointer;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-  /* Required to make elements draggable in old WebKit */
-  -khtml-user-drag: element;
-  -webkit-user-drag: element; }
+  cursor: pointer; }
 
 .radial-slider .inner-circle {
   position: absolute;
@@ -669,13 +644,7 @@ body, html {
   cursor: pointer;
   z-index: 10;
   background: #e2e2e2;
-  box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, 0.2), 1px 2px 2px 1px rgba(0, 0, 0, 0.5);
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-  -khtml-user-drag: element;
-  -webkit-user-drag: element; }
+  box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, 0.2), 1px 2px 2px 1px rgba(0, 0, 0, 0.5); }
 
 .radial-slider .progress {
   position: absolute;
