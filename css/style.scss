@@ -33,14 +33,14 @@ $Regular: RobotoCondensed-Regular;
 }
 
 body, html {
-  zoom: normal !important;
+  //zoom: normal !important;
   width: 1600px !important;
   height: 1067px !important;
   background: #282828 !important;
   @media screen and (min-width: 3840px) and (min-height: 2160px) {
     width: 3840px !important;
     height: 2160px !important;
-    zoom: 1;
+    //zoom: 1;
   }
 }
 
@@ -48,7 +48,7 @@ body, html {
   width: 1600px !important;
   height: 1067px !important;
   @media screen and (min-width: 3840px) and (min-height: 2160px) {
-    zoom: 1;
+    //zoom: 1;
     width: 3840px !important;
     height: 2160px !important;
   }
@@ -195,7 +195,7 @@ body, html {
   height: 1067px;
   @media screen and (min-width: 3840px) and (min-height: 2160px) {
     background: url("../images/bg_4k.jpg") no-repeat;
-    zoom: 1;
+    //zoom: 1;
     width: 3840px !important;
     background-size: 3840px 2160px;
     height: 2160px !important;
@@ -473,7 +473,7 @@ body, html {
 
 @media screen and (min-width: 3840px) and (min-height: 2160px) {
   .on{
-    zoom: normal;
+    //zoom: normal;
   }
   .on1 {
     left: 40%;
@@ -584,12 +584,12 @@ body, html {
 }
 
 .noselect {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  //-webkit-touch-callout: none;
+  //-webkit-user-select: none;
+  //-khtml-user-select: none;
+  //-moz-user-select: none;
+  //-ms-user-select: none;
+  //user-select: none;
 }
 
 .slider2 {
