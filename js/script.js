@@ -1,46 +1,46 @@
 ﻿$(document).ready(function () {
-    // $("#slider").roundSlider({
-    //     radius: 122,
-    //     width: '5',
-    //     handleSize: "40",
-    //     circleShape: "full",
-    //     handleShape: "dot",
-    //     sliderType: "min-range",
-    //     value: 0,
-    //     max: 30,
-    //     startAngle: "+90",
-    //     keyboardAction: false,
-    //     editableTooltip: false
-    // });
-    //
-    // $("#slider").roundSlider({
-    //     drag: function (e) {
-    //         GetValue(e.value);
-    //         var Q = parseInt(e.value);
-    //         $("#surveyForm").find("input[type='number']").attr("value", Q);
-    //         if (e.value > 0 && $(".no_act_cr").length == 0) {
-    //             $(".bt_sv").fadeIn(300);
-    //             $(".bt_sv").fadeIn(300);
-    //         } else {
-    //             $(".bt_sv").fadeOut(300);
-    //         }
-    //     },
-    //     change: function (e) {
-    //         GetValue(e.value);
-    //     }
-    // });
-    //
-    // window.bar = new ProgressBar.Circle(load_button, {
-    //     strokeWidth: 6,
-    //     easing: 'easeInOut',
-    //     duration: 2000,
-    //     color: '#ED1C24',
-    //     trailColor: '#fff',
-    //     trailWidth: 1,
-    //     svgStyle: null
-    // });
+    $("#slider").roundSlider({
+        radius: 122,
+        width: '5',
+        handleSize: "40",
+        circleShape: "full",
+        handleShape: "dot",
+        sliderType: "min-range",
+        value: 0,
+        max: 30,
+        startAngle: "+90",
+        keyboardAction: false,
+        editableTooltip: false
+    });
 
-    // SwipeVeeva($('.swipe-zone'), "UA_ua_702_Stroke_19_1_07", "right", 100);
+    $("#slider").roundSlider({
+        drag: function (e) {
+            GetValue(e.value);
+            var Q = parseInt(e.value);
+            $("#surveyForm").find("input[type='number']").attr("value", Q);
+            if (e.value > 0 && $(".no_act_cr").length == 0) {
+                $(".bt_sv").fadeIn(300);
+                $(".bt_sv").fadeIn(300);
+            } else {
+                $(".bt_sv").fadeOut(300);
+            }
+        },
+        change: function (e) {
+            GetValue(e.value);
+        }
+    });
+    
+    window.bar = new ProgressBar.Circle(load_button, {
+        strokeWidth: 6,
+        easing: 'easeInOut',
+        duration: 2000,
+        color: '#ED1C24',
+        trailColor: '#fff',
+        trailWidth: 1,
+        svgStyle: null
+    });
+
+    SwipeVeeva($('.swipe-zone'), "UA_ua_702_Stroke_19_1_07", "right", 100);
 
     $(".bt_sv").on("click", function () {
         $(this).fadeOut(300);

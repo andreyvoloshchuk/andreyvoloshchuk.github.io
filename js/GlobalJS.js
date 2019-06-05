@@ -28,117 +28,117 @@ function RightNavigation(btn) {
 }
 /*Background animation*/
 function BackgroundAnimation() {
-    // particlesJS('animate_container',
-    //     {
-    //         "particles": {
-    //             "number": {
-    //                 "value": 25,
-    //                 "density": {
-    //                     "enable": true,
-    //                     "value_area": 800
-    //                 }
-    //             },
-    //             "color": {
-    //                 "value": "#9D9D9D"
-    //             },
-    //             "shape": {
-    //                 "type": "circle",
-    //                 "stroke": {
-    //                     "width": 0,
-    //                     "color": "#000000"
-    //                 },
-    //                 "polygon": {
-    //                     "nb_sides": 5
-    //                 },
-    //                 "image": {
-    //                     "src": "img/github.svg",
-    //                     "width": 100,
-    //                     "height": 100
-    //                 }
-    //             },
-    //             "opacity": {
-    //                 "value": 0.8,
-    //                 "random": false,
-    //                 "anim": {
-    //                     "enable": false,
-    //                     "speed": 1,
-    //                     "opacity_min": 0.1,
-    //                     "sync": false
-    //                 }
-    //             },
-    //             "size": {
-    //                 "value": 5,
-    //                 "random": true,
-    //                 "anim": {
-    //                     "enable": false,
-    //                     "speed": 40,
-    //                     "size_min": 0.1,
-    //                     "sync": false
-    //                 }
-    //             },
-    //             "line_linked": {
-    //                 "enable": true,
-    //                 "distance": 300,
-    //                 "color": "#9D9D9D",
-    //                 "opacity": 0.3,
-    //                 "width": 1
-    //             },
-    //             "move": {
-    //                 "enable": true,
-    //                 "speed": 2,
-    //                 "direction": "none",
-    //                 "random": false,
-    //                 "straight": false,
-    //                 "out_mode": "out",
-    //                 "attract": {
-    //                     "enable": false,
-    //                     "rotateX": 600,
-    //                     "rotateY": 1200
-    //                 }
-    //             }
-    //         },
-    //         "interactivity": {
-    //             "detect_on": "canvas",
-    //             "events": {
-    //                 "onhover": {
-    //                     "enable": true,
-    //                     "mode": "repulse"
-    //                 },
-    //                 "onclick": {
-    //                     "enable": true,
-    //                     "mode": "push"
-    //                 },
-    //                 "resize": true
-    //             },
-    //             "modes": {
-    //                 "grab": {
-    //                     "distance": 400,
-    //                     "line_linked": {
-    //                         "opacity": 1
-    //                     }
-    //                 },
-    //                 "bubble": {
-    //                     "distance": 400,
-    //                     "size": 40,
-    //                     "duration": 2,
-    //                     "opacity": 8,
-    //                     "speed": 3
-    //                 },
-    //                 "repulse": {
-    //                     "distance": 200
-    //                 },
-    //                 "push": {
-    //                     "particles_nb": 4
-    //                 },
-    //                 "remove": {
-    //                     "particles_nb": 2
-    //                 }
-    //             }
-    //         },
-    //         "retina_detect": true,
-    //
-    //     }
-    // );
+    particlesJS('animate_container',
+        {
+            "particles": {
+                "number": {
+                    "value": 25,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#9D9D9D"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.8,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 5,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 300,
+                    "color": "#9D9D9D",
+                    "opacity": 0.3,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 2,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true,
+
+        }
+    );
 }
 
 
@@ -240,43 +240,43 @@ function Navigation() {
     });
 }
 
-// function SwipeVeeva(container, gotoSlide, swipe, move) {
-//     $(".content").prepend("<input type='range' class='swipe_range' />");
-//     container.mousedown(function (e) {
-//         var pos = $(this).offset(),
-//             X = e.pageX - pos.left;
-//         //Y = e.pageY / 0.25;
-//         //$(".test").text(Y);
-//         //$(".swipe_range").css({ "padding-top": Y + "px" });
-//         $(this).mousemove(function (e) {
-//             //Y = e.pageY / 0.6;
-//             //$(".swipe_range").css({ "padding-top": Y + "px" });
-//             if (swipe == "right") {
-//                 if (e.pageX > X) {
-//                     var leftGOContent = -(X - e.pageX);
-//                     $(this).css({ "left": leftGOContent + "px" });
-//                 }
-//                 if (e.pageX >= (X + move)) {
-//                     /*right*/
-//                     console.log("ok");
-//                     com.veeva.clm.gotoSlide(gotoSlide + ".zip", "");
-//
-//                 }
-//             } else if (swipe == "left") {
-//                 if (e.pageX < X) {
-//                     var leftGOContent = -(X - e.pageX);
-//                     $(this).css({ "left": leftGOContent + "px" });
-//                 }
-//                 if (e.pageX <= (X + move)) {
-//                     /*left*/
-//                     com.veeva.clm.gotoSlide(gotoSlide + ".zip", "");
-//                 }
-//             }
-//
-//
-//         }).mouseup(function () {
-//             $(this).unbind('mousemove');
-//             $(this).animate({ "left": "0px" }, 300);
-//         });
-//     });
-// }
+function SwipeVeeva(container, gotoSlide, swipe, move) {
+    $(".content").prepend("<input type='range' class='swipe_range' />");
+    container.mousedown(function (e) {
+        var pos = $(this).offset(),
+            X = e.pageX - pos.left;
+        //Y = e.pageY / 0.25;
+        //$(".test").text(Y);
+        //$(".swipe_range").css({ "padding-top": Y + "px" });
+        $(this).mousemove(function (e) {
+            //Y = e.pageY / 0.6;
+            //$(".swipe_range").css({ "padding-top": Y + "px" });
+            if (swipe == "right") {
+                if (e.pageX > X) {
+                    var leftGOContent = -(X - e.pageX);
+                    $(this).css({ "left": leftGOContent + "px" });
+                }
+                if (e.pageX >= (X + move)) {
+                    /*right*/
+                    console.log("ok");
+                    com.veeva.clm.gotoSlide(gotoSlide + ".zip", "");
+
+                }
+            } else if (swipe == "left") {
+                if (e.pageX < X) {
+                    var leftGOContent = -(X - e.pageX);
+                    $(this).css({ "left": leftGOContent + "px" });
+                }
+                if (e.pageX <= (X + move)) {
+                    /*left*/
+                    com.veeva.clm.gotoSlide(gotoSlide + ".zip", "");
+                }
+            }
+
+
+        }).mouseup(function () {
+            $(this).unbind('mousemove');
+            $(this).animate({ "left": "0px" }, 300);
+        });
+    });
+}
