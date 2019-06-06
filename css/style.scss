@@ -33,8 +33,8 @@ $Regular: RobotoCondensed-Regular;
 }
 
 body, html {
-  //width: 1440px !important;
-  //height: 960px !important;
+  width: 1440px;
+  height: 960px;
   background: #282828 !important;
   @media screen and (min-width: 3840px) and (min-height: 2160px) {
     width: 3840px !important;
