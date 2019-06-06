@@ -38,8 +38,7 @@ body, html {
   position: absolute;
   top: 0;
   left: 0;
-  overflow: hidden;
-  zoom: 0.555; }
+  overflow: hidden; }
   @media screen and (min-width: 3840px) and (min-height: 2160px) {
     body, html {
       width: 3840px;

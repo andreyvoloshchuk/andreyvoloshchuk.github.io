@@ -8,9 +8,6 @@ body, html {
       height: 2160px !important;
       zoom: 1; } }
 
-body {
-  zoom: 1 !important; }
-
 #animate_container, .container, .content {
   width: 1600px !important;
   height: 1067px !important; }
