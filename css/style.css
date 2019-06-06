@@ -110,6 +110,9 @@ body, html {
 #slider .rs-path-color {
   background-color: #6d7989; }
 
+#slider {
+  touch-action: none; }
+
 #slider .rs-handle {
   background-color: #c0151c;
   padding: 7px; }

@@ -165,6 +165,9 @@ body, html {
 #slider .rs-path-color {
   background-color: rgb(109, 121, 137);
 }
+#slider {
+  touch-action: none;
+}
 
 #slider .rs-handle {
   background-color: #c0151c;
