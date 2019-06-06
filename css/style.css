@@ -1,6 +1,4 @@
 body, html {
-  width: 1600px !important;
-  height: 1067px !important;
   background: #282828 !important; }
   @media screen and (min-width: 3840px) and (min-height: 2160px) {
     body, html {
@@ -9,8 +7,8 @@ body, html {
       zoom: 1; } }
 
 #animate_container, .container, .content {
-  width: 1600px !important;
-  height: 1067px !important; }
+  width: 1440px;
+  height: 960px; }
   @media screen and (min-width: 3840px) and (min-height: 2160px) {
     #animate_container, .container, .content {
       zoom: 1;
@@ -131,9 +129,9 @@ body, html {
 
 .main {
   background: url("../images/bg.png") no-repeat;
-  background-size: 1600px 1067px;
-  width: 1600px;
-  height: 1067px; }
+  background-size: 100% 100%;
+  width: 1440px;
+  height: 960px; }
   @media screen and (min-width: 3840px) and (min-height: 2160px) {
     .main {
       background: url("../images/bg_4k.jpg") no-repeat;
@@ -162,7 +160,7 @@ body, html {
 .on {
   display: none;
   position: absolute;
-  zoom: 0.555; }
+  zoom: 0.5; }
 
 .on1 {
   background: url("../images/1.png") no-repeat;

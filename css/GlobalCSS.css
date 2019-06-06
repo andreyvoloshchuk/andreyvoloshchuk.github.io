@@ -33,8 +33,8 @@ body, html {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 2880px;
-  height: 1920px;
+  width: 1440px;
+  height: 960px;
   position: absolute;
   top: 0;
   left: 0;
@@ -53,10 +53,6 @@ body, html {
         width: 932px !important;
         height: 943px !important;
         background-size: 932px 943px !important; } }
-  @media screen and (min-width: 1920px) and (min-height: 1080px) {
-    body, html {
-      font-size: 100px;
-      zoom: 1; } }
 
 * {
   box-sizing: border-box;
@@ -72,8 +68,8 @@ ul {
   background: #fff; }
 
 #animate_container, .container {
-  width: 2880px;
-  height: 1920px;
+  width: 1440px;
+  height: 960px;
   position: relative;
   overflow: hidden; }
 
@@ -292,8 +288,8 @@ ul {
       background-size: 32px 39px; }
 
 .content {
-  width: 2880px;
-  height: 1920px;
+  width: 1440px;
+  height: 960px;
   position: relative; }
 
 .promo {

@@ -41,7 +41,7 @@
         svgStyle: null
     });
 
-    SwipeVeeva($('#animate_container'), "UA_ua_702_Stroke_19_1_06", "right", 600);
+    // SwipeVeeva($('#animate_container'), "UA_ua_702_Stroke_19_1_07", "right", 600);
 
 
     $(".bt_sv").on("click", function () {

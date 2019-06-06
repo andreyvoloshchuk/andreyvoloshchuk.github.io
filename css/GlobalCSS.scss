@@ -69,13 +69,12 @@ body, html {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 2880px;
-  height: 1920px;
+  width: 1440px;
+  height: 960px;
   position: absolute;
   top: 0;
   left: 0;
   overflow: hidden;
-  //zoom: 0.555;
   @media screen and (min-width: 3840px) and (min-height: 2160px) {
     width: 3840px;
     height: 2160px;
@@ -92,10 +91,10 @@ body, html {
       background-size: 932px 943px !important;
     }
   }
-  @media screen and (min-width: 1920px) and (min-height: 1080px) {
-    font-size: 100px;
-    zoom: 1;
-  }
+  //@media screen and (min-width: 1920px) and (min-height: 1080px) {
+  //  font-size: 100px;
+  //  zoom: 1;
+  //}
 }
 
 * {
@@ -115,8 +114,8 @@ ul {
 }
 
 #animate_container, .container {
-  width: 2880px;
-  height: 1920px;
+  width: 1440px;
+  height: 960px;
   position: relative;
   overflow: hidden;
 }
@@ -350,8 +349,8 @@ ul {
 }
 
 .content {
-  width: 2880px;
-  height: 1920px;
+  width: 1440px;
+  height: 960px;
   position: relative;
 }
 

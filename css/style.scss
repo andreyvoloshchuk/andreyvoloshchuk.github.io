@@ -33,8 +33,8 @@ $Regular: RobotoCondensed-Regular;
 }
 
 body, html {
-  width: 1600px !important;
-  height: 1067px !important;
+  //width: 1440px !important;
+  //height: 960px !important;
   background: #282828 !important;
   @media screen and (min-width: 3840px) and (min-height: 2160px) {
     width: 3840px !important;
@@ -42,13 +42,10 @@ body, html {
     zoom: 1;
   }
 }
-//body{
-//  zoom: 1 !important;
-//}
 
 #animate_container, .container, .content {
-  width: 1600px !important;
-  height: 1067px !important;
+  width: 1440px;
+  height: 960px;
   @media screen and (min-width: 3840px) and (min-height: 2160px) {
     zoom: 1;
     width: 3840px !important;
@@ -194,9 +191,9 @@ body, html {
 
 .main {
   background: url("../images/bg.png") no-repeat;
-  background-size: 1600px 1067px;
-  width: 1600px;
-  height: 1067px;
+  background-size: 100% 100%;
+  width: 1440px;
+  height: 960px;
   @media screen and (min-width: 3840px) and (min-height: 2160px) {
     background: url("../images/bg_4k.jpg") no-repeat;
     zoom: 1;
@@ -230,7 +227,7 @@ body, html {
 .on {
   display: none;
   position: absolute;
-  zoom: 0.555;
+  zoom: 0.5;
 }
 
 .on1 {
