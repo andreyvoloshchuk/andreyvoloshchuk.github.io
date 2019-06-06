@@ -240,6 +240,7 @@ function Navigation() {
     });
 }
 
+
 function SwipeVeeva(container, gotoSlide, swipe, move) {
     $(".content").prepend("<input type='range' class='swipe_range' />");
     container.mousedown(function (e) {
@@ -258,7 +259,7 @@ function SwipeVeeva(container, gotoSlide, swipe, move) {
                 }
                 if (e.pageX >= (X + move)) {
                     /*right*/
-                    console.log("ok");
+                    
                     com.veeva.clm.gotoSlide(gotoSlide + ".zip", "");
 
                 }
@@ -267,7 +268,7 @@ function SwipeVeeva(container, gotoSlide, swipe, move) {
                     var leftGOContent = -(X - e.pageX);
                     $(this).css({ "left": leftGOContent + "px" });
                 }
-                if (e.pageX <= (X + move)) {
+                if (e.pageX <= (X - move)) {
                     /*left*/
                     com.veeva.clm.gotoSlide(gotoSlide + ".zip", "");
                 }

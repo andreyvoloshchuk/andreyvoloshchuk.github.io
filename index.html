@@ -1,136 +1,117 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <link href="css/GlobalCSS.css" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="css/roundslider.min.css">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/GlobalCSS.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <script src="js/veeva-library.js" type="text/javascript"></script>
-    <script src="js/veeva-library-addendum_survey_iDC.js" type="text/javascript"></script>
-    <script src="js/jquery-3.4.1.js" type="text/javascript"></script>
-    <script src="js/jquery-ui.min.js" type="text/javascript"></script>
-    <script src="js/jquery.ui.touch-punch.js" type="text/javascript"></script>
-    <script src="js/jquery.touchSwipe.min.js" type="text/javascript"></script>
-    <script src="js/slider-circular.min.js" type="text/javascript"></script>
+    <script src="js/jquery.js" type="text/javascript"></script>
     <script src="js/TweenLite.min.js" type="text/javascript"></script>
     <script src="js/TweenMax.min.js" type="text/javascript"></script>
-    <script src="js/roundslider.js" type="text/javascript"></script>
     <script src="js/particles.js" type="text/javascript"></script>
     <script src="js/GlobalJS.js" type="text/javascript"></script>
-    <script src="js/slide.js" type="text/javascript"></script>
     <script src="js/circle.js" type="text/javascript"></script>
     <script src="js/script.js" type="text/javascript"></script>
     <title></title>
 </head>
 <body>
-    <div id="animate_container">
-        <div class="container">
-            <!--Header-->
-            <div class="header">
-                <div class="head_img">
-                    <div class="nav_panel">
-                        <ul>
-                            <li id="n_bt_1"></li>
-                            <li id="n_bt_2"></li>
-                            <li id="n_bt_3"></li>
-                            <li id="n_bt_4"></li>
-                        </ul>
+<div id="animate_container">
+    <div class="container">
+        <!--Header-->
+        <div class="header">
+            <div class="head_img">
+                <div class="nav_panel">
+                    <ul>
+                        <li id="n_bt_1"></li>
+                        <li id="n_bt_2"></li>
+                        <li id="n_bt_3"></li>
+                        <li id="n_bt_4"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu_cnt">
+                <div class="border_cnt center_abs">
+                    <div class="grey_cnt center_abs">
+                        <div class="nw_bord center_abs"></div>
                     </div>
                 </div>
-                <div class="menu_cnt">
-                    <div class="border_cnt center_abs">
-                        <div class="grey_cnt center_abs">
-                            <div class="nw_bord center_abs"></div>
-                        </div>
+                <div class="btn_cnt">
+                    <div class="mn_btn" id="m_bt_1"></div>
+                    <div class="mn_btn" id="m_bt_2"></div>
+                    <div class="mn_btn" id="m_bt_3"></div>
+                    <div class="mn_btn" id="m_bt_4"></div>
+                    <div class="mn_btn" id="m_bt_5"></div>
+                    <div class="mn_btn" id="m_bt_6"><a href="pdf/PIL_CERE_2014.pdf" class="full_a" ></a></div>
+                    <div class="mn_btn no_act_f1" id="m_bt_7"></div>
+                    <div class="mn_btn" id="m_bt_8"></div>
+                </div>
+            </div>
+            <div class="menu_btn" id="nav_btn"></div>
+        </div>
+        <!--Header-->
+
+
+        <div class="content">
+            <!-------------Content-------------->
+            <div class="main">
+                <div class="text-block">
+                    <p class="text1">ІНСУЛЬТ</p>
+                    <p class="text2"><span>НЕЙРОПРОТЕКЦІЯ</span><br>зменшення втрат функцій</p>
+                    <p class="text3"><span>НЕЙРОРЕГЕНЕРАЦІЯ</span><br>відновлення функцій</p>
+                </div>
+                <div class="text-block1">
+                    <p>Години</p>
+                    <p>Дні</p>
+                    <p>Тижні</p>
+                    <p>Місяці</p>
+                </div>
+                <div class="first_btn">
+                    <p class="first_btn-text">
+                        фармакологічна<br>терапія
+                    </p>
+                    <div class="play_btn active"></div>
+                </div>
+                <div class="bar1-animation">
+                    <div class="animation-block1">
+                        <p><span>Лікування 10-50 мл,</span> 10 днів</p>
                     </div>
-                    <div class="btn_cnt">
-                        <div class="mn_btn" id="m_bt_1"></div>
-                        <div class="mn_btn" id="m_bt_2"></div>
-                        <div class="mn_btn" id="m_bt_3"></div>
-                        <div class="mn_btn" id="m_bt_4"></div>
-                        <div class="mn_btn" id="m_bt_5"></div>
-                        <div class="mn_btn" id="m_bt_6"><a href="pdf/PIL_CERE_2014.pdf" class="full_a" ></a></div>
-                        <div class="mn_btn" id="m_bt_7"></div>
-                        <div class="mn_btn" id="m_bt_8"></div>
+                </div>
+                <div class="point-des-block">
+                    <div class="point"></div>
+                    <p class="point-des1"><span>Фізіотерапія</span><br>(активні + пасивні рухи, масаж тощо)
+                    </p>
+                    <p class="point-des2">
+                        <span>Фізіотерапія</span><br>(активні рухи)
+                    </p>
+                </div>
+                <div class="bar2-animation">
+                    <div class="animation-block2">
+                        <p><span>Лікування 30 мл</span>, 21 день</p>
                     </div>
                 </div>
-                <div class="menu_btn" id="nav_btn"></div>
-            </div>
-            <!--Header-->
-
-            
-            <div class="content">
-                <div class="save_button">
-                    <div class="bt_sv">Зберегти результат</div>
-                    <div id="load_button"><div class="done_load"></div></div>
+                <div class="second_btn">
+                    <p class="second_btn-text">
+                        <span>фармакологічна<br>терапія</span><br>+ реабілітація
+                    </p>
+                    <div class="second-play_btn second-active"></div>
                 </div>
-                <!-------------Content-------------->
-                <div class="zoom_block"></div>
-                <div class="main">
-                    <div class="on1 on "></div>
-                    <div class="on2 on "></div>
-                    <div class="on3 on "></div>
-                    <div class="on4 on "></div>
-                    <div class="on5 on "></div>
-                    <div class="on6 on "></div>
-                    <div class="on7 on "></div>
-                    <div class="on8 on "></div>
-                    <div class="on9 on "></div>
-                    <div class="on10 on "></div>
-                    <div class="on11 on "></div>
-                    <div class="on12 on "></div>
-                    <div class="on13 on "></div>
-                    <div class="on14 on "></div>
-                    <div class="on15 on "></div>
-                    <div class="on16 on "></div>
-                    <div class="on17 on "></div>
-                    <div class="on18 on "></div>
-                    <div class="on19 on "></div>
-                    <div class="on20 on "></div>
-                    <div class="on21 on "></div>
-                    <div class="on22 on "></div>
-                    <div class="on23 on "></div>
-                    <div class="on24 on "></div>
-                    <div class="on25 on "></div>
-                    <div class="on26 on "></div>
-                    <div class="on27 on "></div>
-                    <div class="on28 on "></div>
-                    <div class="on29 on "></div>
-                    <div class="on30 on "></div>
-                    <p class="header-text">Якій кількості пацієнтів на мiсяць <br>Ви призначите <span>Церебролізин<sup>®</sup></span>?</p>
-                </div>
-                <!-------------Content-------------->
-            </div>
-            
-
-            <!--Footer-->
-            <!--
-            <div class="footer">
-                <div class="ft_cnt">Церебролізин<sup>®</sup><p><b>Возз’єднує нейрони.<br>Надихає на життя.<b></p></div>
+                <div id="container1"></div>
+                <div id="container2"></div>
             </div>
 
-            <!--Footer-->
+            <!-------------Content-------------->
         </div>
 
 
-        <!--Servey Form-->
-        <div class="server_container">
-            <form id="surveyForm">
-                <div id="surveyContainer"></div>
-                <a href="javascript:void(0);" class="surveyButton" id="submitButton">Submit</a>
-                <a href="javascript:void(0);" class="surveyButton" id="saveButton">Save for later</a>
-            </form>
-            <div id="errorDiv"></div>
+        <!--Footer-->
+        <div class="footer">
+            <div class="ft_cnt">Церебролізин<sup>®</sup>
+                <p><b>Возз’єднує нейрони.<br>Надихає на життя.<b></p></div>
         </div>
 
-
-        <!--End Servey Form-->
+        <!--Footer-->
     </div>
-<!--    <div class="content_sl">-->
-<!--        -->
-<!--    </div>-->
-    <div class="content_sl">
-        <div id="slider"></div>
-    </div>
+</div>
 </body>
 </html>

@@ -63,23 +63,23 @@
 }
 
 body, html {
-  //-moz-user-select: none;
-  //-o-user-select: none;
-  //-khtml-user-select: none;
-  //-webkit-user-select: none;
-  //-ms-user-select: none;
-  //user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   width: 2880px;
   height: 1920px;
   position: absolute;
   top: 0;
   left: 0;
   overflow: hidden;
-  //zoom: 0.555;
+  zoom: 0.555;
   @media screen and (min-width: 3840px) and (min-height: 2160px) {
     width: 3840px;
     height: 2160px;
-    //zoom: 1;
+    zoom: 1;
     #animate_container, .container {
       width: 3840px;
       height: 2160px;
@@ -92,7 +92,7 @@ body, html {
   }
   @media screen and (min-width: 1920px) and (min-height: 1080px) {
     font-size: 100px;
-    //zoom: 1;
+    zoom: 1;
   }
 }
 
@@ -327,7 +327,7 @@ ul {
       height: 50px;
       background: url(../images/menu/head_nav_ic2.png) center center no-repeat;
       background-size: 100%;
-      margin-left: 160px;
+      margin-left: 210px;
     }
 
     > li:nth-child(3) {
