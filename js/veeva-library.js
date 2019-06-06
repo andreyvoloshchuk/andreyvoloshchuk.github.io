@@ -2044,9 +2044,8 @@ com.veeva.clm.initialize = function initializeEngage() {
         message.event.type = eventType;
         message.event.clientX = event.clientX;
         message.event.clientY = event.clientY;
-        
+
         window.parent.postMessage(JSON.stringify(message), "*");
-        
     }
 
     function sendChangeEvent(eventType, target, eventLocation) {

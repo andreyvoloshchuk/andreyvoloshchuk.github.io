@@ -86,8 +86,10 @@ body, html {
     }
     .head_img {
       background: url("../images/head-img4k.png") no-repeat center;
-      width: 932px;
-      height: 943px;
+      z-index: 150;
+      width: 932px !important;
+      height: 943px !important;
+      background-size: 932px 943px !important;
     }
   }
   @media screen and (min-width: 1920px) and (min-height: 1080px) {
@@ -327,7 +329,8 @@ ul {
       height: 50px;
       background: url(../images/menu/head_nav_ic2.png) center center no-repeat;
       background-size: 100%;
-      margin-left: 210px;
+      margin-left: 37px;
+      margin-top: 106px;
     }
 
     > li:nth-child(3) {
